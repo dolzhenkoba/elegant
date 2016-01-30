@@ -57,10 +57,13 @@
 				<h2 class="ba-services__title">
 					our services
 				</h2>
-				<div class="ba-grid">
+				<div class="ba-grid ba-grid--pad30">
 					<div class="ba-width-1-3">
-						<div class="ba-services__item">
-							<img src="img/services/apple.svg" alt="img/services/apple.svg">
+						<div class="ba-services__item ">
+							<div class="ba-services__img">
+								<img src="img/services/apple.svg" alt="img/services/apple.svg">
+							</div>
+
 							<h4 class="ba-services__subtitle">
 								App Design
 							</h4>
@@ -72,7 +75,9 @@
 					</div>
 					<div class="ba-width-1-3">
 						<div class="ba-services__item">
+							<div class="ba-services__img">
 							<img src="img/services/responsiv.svg" alt="img/services/responsiv.svg">
+							</div>
 							<h4 class="ba-services__subtitle">
 								Responsive Layout
 
@@ -85,7 +90,9 @@
 					</div>
 					<div class="ba-width-1-3">
 						<div class="ba-services__item">
+							<div class="ba-services__img">
 							<img src="img/services/pixel.svg" alt="img/services/pixel.svg">
+							</div>
 							<h4 class="ba-services__subtitle">
 								Pixel Perfect Design
 
@@ -122,12 +129,57 @@
 		</section>
 
 		<!-- ba-our-work -->
-		<section class="ba-our-work">
-			<div class="ba-container">
+		<section id="our-work" class="ba-our-work ba-text-center">
+			<div class="ba-container ">
 				<h2 class="ba-our-work__title">
 					our work
 				</h2>
+				<div class="ba-grid ba-grid--pad30">
+					<div class="ba-width-1-3">
+						<a href="#" class="ba-our-work__item">
+							<img src="img/work/planet.jpg" alt="img/work/planet.jpg">
+							<span class="ba-our-work__link">kinderen planet</span>
+						</a>
+					</div>
+					<div class="ba-width-1-3">
+						<a href="#" class="ba-our-work__item">
+							<img src="img/work/jetindus.jpg" alt="img/work/jetindus.jpg">
+							<span class="ba-our-work__link">jetindus</span>
+						</a>
+					</div>
+					<div class="ba-width-1-3">
+						<a href="#" class="ba-our-work__item">
+							<img src="img/work/trimplement.jpg" alt="img/work/trimplement.jpg">
+							<span class="ba-our-work__link">trimplement</span>
+						</a>
+					</div>
+				</div>
+				<a class="ba-button ba-button--our-work" href="#">more</a>
 			</div>
+		</section>
+
+		<!-- ba-contact -->
+		<section id="contact" class="ba-contact">
+			<div class="ba-container">
+				<h2 class="ba-contact__title">
+					get in touch
+				</h2>
+				<ul class="ba-contact__social">
+					<li><a href="#"><img src="img/social/twit.svg" alt="twit"></a></li>
+					<li><a href="#"><img src="img/social/faceb.svg" alt="faceb"></a></li>
+					<li><a href="#"><img src="img/social/inst.svg" alt="inst"></a></li>
+					<li><a href="#"><img src="img/social/vk.svg" alt="vk"></a></li>
+					<li><a href="#"><img src="img/social/be.svg" alt="be"></a></li>
+				</ul>
+
+				<form class="ba-contact-form" action="#" method="post">
+			    	  <input type="text" name="name" placeholder="Name" required>
+					  <input type="email" name="email" placeholder="Email" required>
+					  <p><textarea rows="1" name="message"   placeholder="Message"></textarea></p>
+					  <button class="ba-button ba-button--contact" type="submit">send</button>
+				</form>
+			</div>
+
 		</section>
 
 	</main>
